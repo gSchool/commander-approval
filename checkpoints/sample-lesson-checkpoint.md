@@ -8,13 +8,12 @@ What is the name of Galvanize's markdown support extension in VS Code?
 
 ##### !end-question
 ##### !options
-gMark
-gHarsh
-gSwag
-gLife
+* gMark
+* gHarsh
+* gSwag
+* gLife
 ##### !end-options
 ##### !answer
-gMark
-
+* gMark
 ##### !end-answer
 ### !end-challenge
