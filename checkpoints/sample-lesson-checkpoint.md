@@ -1,7 +1,7 @@
 Sample Checkpoint
 ### !challenge
 type: multiple-choice
-id: 3efdcc68-1919-4060-a61e-aa486faca1ea
+id: b861a73d-30ad-405e-bd4b-9c82e8f86462
 title: Your First Checkpoint
 ##### !question
 What is the name of Galvanize's markdown support extension in VS Code?
