@@ -1,0 +1,40 @@
+# Config.yaml specifies the content and ordering within a repo for a curriculum block
+
+# Supported Fields
+# ==========================
+# Standards -- (Standards = Units). A list of Units for a block
+# Standard.Title: string -- The Unit title that shows up on the curriculum overview
+# Standard.UID: string -- A unique ID for the Unit. Use `cmd/ctrl+option/alt+u` to generate (runs once per cursor/selection)
+# Standard.Description: string -- The Unit description that shows up on the curriculum overview
+# Standard.SuccessCriteria: list -- An array of success criteria that can be viewed when scoring the checkpoint in a Unit.
+# Standard.ContentFiles: list -- A list of Lessons and (optional) Checkpoints in a Unit.
+# Standard.ContentFiles.Type: Lesson | Checkpoint -- The type of the current content file.
+# Standard.ContentFiles.UID: string -- A unique ID for the Unit. Use `cmd/ctrl+option/alt+u` to generate (runs once per cursor/selection)
+# Standard.ContentFiles.Path: string -- The absolute path to the Lesson, starting with `/`. Use `cmd/ctrl+option/alt+p` to generate
+# Standard.ContentFiles.DefaultVisibility: hidden -- (optional) Set to 'hidden' to hide when a course first starts.
+# Standard.ContentFiles.Autoscore: boolean -- (optional, for Checkpoints only) submit checkpoint scores without review
+# Standard.ContentFiles.MaxCheckpointSubmissions: number -- (optional, for Checkpoints only) limit the number of submissions
+
+# Related Snippets
+# ==========================
+# `unityaml`: add a Unit
+# `lessonyaml`: add a lesson
+# Note: Be sure to place the cursor at the appropriate indentation level before running either of these.
+
+# All UIDs must be unique within a repo. Use `cmd/ctrl+option/alt+u` to generate
+Standards:
+  - Title: Welcome & Frequently Asked Questions
+    UID: 842e5577-4d37-4fe2-a4a8-da596101a4dc
+    Description: Start here for answers to frequently asked questions
+    SuccessCriteria:
+      - Unit has a config.yaml
+      - Unit has a lesson
+      - Unit has a checkpoint
+    ContentFiles:
+      - Type: Lesson
+        UID: ef00f1df-5445-44c6-ad71-935e1e272476
+        Path: /units/commander_approval.md
+      - Type: Checkpoint
+        UID: 1f645ccb-997d-474e-940a-fa5cad9447b2
+        Path: /checkpoints/sample-lesson-checkpoint.md
+        DefaultVisibility: hidden
