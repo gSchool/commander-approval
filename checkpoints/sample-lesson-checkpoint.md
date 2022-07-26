@@ -1,19 +1,32 @@
 Sample Checkpoint
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
 ### !challenge
-type: multiple-choice
-id: b861a73d-30ad-405e-bd4b-9c82e8f86462
-title: Your First Checkpoint
+
+* type: multiple-choice
+* id: 3534769b-a9c7-4da3-8626-e3840f9826f8
+* title: Commander Approval
+
 ##### !question
-What is the name of Galvanize's markdown support extension in VS Code?
+
+My commander emailed the approval by submitting the required wording found within the memorandum to myself and federal@galvanize.com.
 
 ##### !end-question
+
 ##### !options
-* gMark
-* gHarsh
-* gSwag
-* gLife
+
+* True
+* False
+
 ##### !end-options
+
 ##### !answer
-* gMark
+
+* True
+
 ##### !end-answer
+
 ### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
