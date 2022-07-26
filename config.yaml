@@ -35,6 +35,6 @@ Standards:
         UID: ef00f1df-5445-44c6-ad71-935e1e272476
         Path: /units/commander_approval.md
       - Type: Checkpoint
-        UID: 1f645ccb-997d-474e-940a-fa5cad9447b2
+        UID: cec26202-431f-4b93-b177-9f7242874659
         Path: /checkpoints/sample-lesson-checkpoint.md
         DefaultVisibility: hidden
