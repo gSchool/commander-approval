@@ -4,7 +4,7 @@
 
 Consideration for selection and enrollment is contingent upon the receipt of commander approval.
 
-* Download this memorandum (click here) 
+* Download this memorandum [(click here)](https://drive.google.com/file/d/1k6RoEtdlKUN8hZgx01aeUdDX9Q9fSsD-/view?usp=sharing) 
 * Provide the memorandum to your commander, requesting they follow the instructions on the document to provide their approval for you to be a part of this program.
 * Request your commander cc: you when submitting the commander approval to federal@galvanize.com. 
 
