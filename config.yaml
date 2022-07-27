@@ -23,7 +23,7 @@
 
 # All UIDs must be unique within a repo. Use `cmd/ctrl+option/alt+u` to generate
 Standards:
-  - Title: Welcome & Frequently Asked Questions
+  - Title: Commander Approval
     UID: 842e5577-4d37-4fe2-a4a8-da596101a4dc
     Description: Start here for answers to frequently asked questions
     SuccessCriteria:
