@@ -25,7 +25,7 @@
 Standards:
   - Title: Commander Approval
     UID: 842e5577-4d37-4fe2-a4a8-da596101a4dc
-    Description: Start here for answers to frequently asked questions
+    Description: Acknowledge commander approval here.
     SuccessCriteria:
       - Unit has a config.yaml
       - Unit has a lesson
